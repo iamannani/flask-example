@@ -1,0 +1,26 @@
+1- start documenting for virtualenv and install it  pip install virtualenv
+  then activate it from scripts/bin/activate
+
+2- install all flask and flask-restful and gunicorn
+**Gunicorn is a WSGI HTTP server that will handle requests made to your app when it is deployed. It is what most folks use to deploy python apps.
+
+3- install heroku cli from their website
+
+4- create a procfile : web: gunicorn run:my_awesome_app
+5- create a req txt by pip freeze > requirements.txt
+6- create a runtime.txt that conatins: python-3.7.2
+7- copy/paste a hello world code.
+8- create a .gitignore containes 
+env
+*.pyc
+---
+9-git init, git add , git commit
+--
+10- heroku login
+12- heroku create yourapp
+11- git push heroku master error ? so heroku git:remote -a yourapp
+13- run: heroku open
+12- logs: heroku logs --tail
+
+
+
