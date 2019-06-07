@@ -10,15 +10,21 @@
 ### Config
 
 4- create a ```` procfile : web: gunicorn -w 4 my_app_name:app why? my_app_name is my_app_name.py and and app is flask name in my_app_name ````
+
 5- create a req txt by ```` pip freeze > requirements.txt ````
+
 6- create a runtime.txt that conatins: python-3.7.2
+
 7- copy/paste a hello world code.
+
 8- create a .gitignore containes 
-````
-env
-*.pyc
-````
 ---
+env
+
+*.pyc
+
+---
+
 9-git init, git add , git commit
 --
 10- heroku login
