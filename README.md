@@ -43,4 +43,21 @@ env
 12- logs: heroku logs --tail
 
 
+### pdb not works? try this
+
+
+breakpoint : import pdb; pdb.set_trace()
+
+app.run(debug=True)
+
+### url params try this?
+
+@app.route('/lang/<int:id>', methods=['GET'])
+
+@app.route('/lang/<string:id>', methods=['GET'])
+
+
+
+
+
 
