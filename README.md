@@ -26,11 +26,20 @@ env
 ---
 
 9-git init, git add , git commit
---
+
+
 10- heroku login
+
 12- heroku create yourapp
-11- git push heroku master error ? so heroku git:remote -a yourapp
+
+11- git push heroku master 
+
+
+*error ? so heroku git:remote -a yourapp *switch? : remote add origin https://github.com/AbdelghaniAnnani/flask-example
+
+
 13- run: heroku open
+
 12- logs: heroku logs --tail
 
 
