@@ -53,7 +53,9 @@ app.run(debug=True)
 ### url params try this?
 
 @app.route('/lang/<int:id>', methods=['GET'])
+
 < > darori makaybanoch dir edit
+
 @app.route('/lang/<string:id>', methods=['GET'])
 
 
